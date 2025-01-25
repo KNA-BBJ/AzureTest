@@ -9,7 +9,6 @@ on:
       - main
 
 permissions:
-  id-token: write  # Grant write access to the id-token
   contents: read   # Default read access for repository contents
 
 jobs:
