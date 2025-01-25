@@ -28,6 +28,11 @@ jobs:
     - name: Check Azure CLI
       run: az --version
 
+    - name: Print Working Directory
+      run: pwd
+
+    - name: List Files
+      run: ls -la
 
     - name: Azure Login
       uses: azure/login@v1
