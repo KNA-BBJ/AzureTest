@@ -43,10 +43,16 @@ jobs:
         client-secret: ${{ secrets.ARM_CLIENT_SECRET }}
 
     - name: Terraform Init
-      run: terraform init
+      run: |
+        cd .github
+        terraform init
 
     - name: Terraform Plan
-      run: terraform plan -out=tfplan
+      run: |
+        cd .github
+        terraform plan -out=tfplan
 
     - name: Terraform Apply
-      run: terraform apply -auto-approve tfplan
+      run: |
+        cd .github
+        terraform apply -auto-approve tfplan
