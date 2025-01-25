@@ -25,6 +25,10 @@ jobs:
       with:
         terraform_version: 1.5.0
 
+    - name: Check Azure CLI
+      run: az --version
+
+
     - name: Azure Login
       uses: azure/login@v1
       with:
