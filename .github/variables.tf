@@ -144,7 +144,7 @@ variable "mysql_server_username" {
 
 variable "mysql_server_password" {
   description = "DB Server Password"
-  sensitive   = true
+  default     = "Boogins"
 }
 
 variable "mysql_db_storage_size_gb" {
