@@ -9,7 +9,7 @@ on:
       - main
 
 permissions:
-  contents: read   # Default read access for repository contents
+  contents: read   # Default read access for repository contents Yay
 
 jobs:
   terraform:
