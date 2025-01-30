@@ -60,6 +60,7 @@ mysql_wordpress_database_name = "wp-app-database"
 
 #WP Admin email
 wordpress_admin_email = "bbjboss@clan-kna.au"
+wordpress_admin_admin_password "Magn3t1c"
 
 #WP UserAdmin
 wordpress_admin_admin_user_name = "wpappuser"
