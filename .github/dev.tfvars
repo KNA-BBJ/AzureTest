@@ -53,6 +53,7 @@ mysql_server_name = "wp-app-dbserver001"
 
 #DB Username
 mysql_server_username = "wpdbadmuser"
+mysql_server_password = "Boogins"
 
 #WP DB Name
 mysql_wordpress_database_name = "wp-app-database"
