@@ -196,6 +196,7 @@ variable "wordpress_admin_email" {
 
 variable "wordpress_admin_admin_user_name" {
   description = "WP admin user"
+  default     = "WPBoss"
 }
 
 variable "wordpress_admin_admin_password" {
