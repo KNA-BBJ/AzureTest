@@ -1,7 +1,7 @@
 /*
 General Settings
 */
-variable "tags" {
+variable "tags" {g
   description = "resource tags"
   default = {
     AppProfile = "Wordpress"
@@ -144,7 +144,7 @@ variable "mysql_server_username" {
 
 variable "mysql_server_password" {
   description = "DB Server Password"
-  default     = "Boogins"
+  default     = "Boogins12345"
 }
 
 variable "mysql_db_storage_size_gb" {
