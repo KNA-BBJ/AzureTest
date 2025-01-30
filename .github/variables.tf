@@ -200,7 +200,7 @@ variable "wordpress_admin_admin_user_name" {
 
 variable "wordpress_admin_admin_password" {
   description = "WP Admin password"
-  
+  default     = "Magn3t1c"
 }
 
 variable "wordpress_default_site_title" {
