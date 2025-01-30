@@ -192,6 +192,7 @@ WordPress Settings
 */
 variable "wordpress_admin_email" {
   description = "WP admin email"
+  default     = "barrie.russell@gmail.com"
 }
 
 variable "wordpress_admin_admin_user_name" {
